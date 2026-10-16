@@ -1,0 +1,34 @@
+# 測試憑證與本次測試標的（保留 README 說明檔與 .example 範本）
+.auth/*
+!.auth/README.md
+!.auth/*.example
+
+# 本機 MCP 設定（含實際 allowed-origins；commit 的是 .mcp.json.example 範本）
+.mcp.json
+
+# Python 虛擬環境
+.venv/
+__pycache__/
+*.pyc
+
+# 探索中累積的截圖與 console log（session-specific，體積大）
+records/artifacts/
+
+# 探索成果（PoC 階段、未經 review 的中間產物，暫不入版本；之後要追蹤時再移除對應行）
+docs/product-map.md
+docs/features/home/
+docs/features/games/
+records/*.md
+!records/README.md
+
+# Claude Code 本機設定（permission allowlist 等）
+.claude/settings.local.json
+.claude/.credentials.json
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,10 +1,10 @@
 # docs/features/
 
-> 各模組 / 功能的細節文件。由 `map-product` skill 自動建立並由 QA 審核。
+> 各模組 / 頁面的細節文件。由 `map-product` skill 自動建立並由 QA 審核。
 
 ## 目錄規則
 - 一個模組一個子目錄：`docs/features/<module>/`
-- 每個 feature 一個檔：`docs/features/<module>/<feature>.md`
+- 每個頁面一個檔：`docs/features/<module>/<page>.md`
 - 檔名用 kebab-case（例：`checkout/payment.md`、`member/profile.md`）
 
 ## 檔案範本
@@ -31,6 +31,9 @@
 - 「類型」只能是：連結 / 按鈕 / 輸入 / 顯示 / 送出動作（未執行） / 送出動作（已執行）
 - 「去向」為推測時，必須加註「（推測）」；無去向填「—」
 - 「相關網路請求」只記功能性請求，時機限：載入時 / 操作觸發 / 定時 / 其他
+- 操作表證據欄格式：AI 寫入用「環境 / 版本 / 角色 / 日期」；annotate-map 寫入用「人補 / 日期」
+- 相關網路請求、資料驅動內容的條列段：annotate-map 編輯過的尾綴「［人補 / 日期］」；AI 寫入的不加尾綴
+- annotate-map 可編輯的段落：操作表、相關網路請求、資料驅動內容；不碰 header 欄位、不碰 docs/product-map.md
 - 不要新增其他段落（例：已知未探索、修改紀錄）；證據只保留最新一筆，歷史由 git 保存
 
 ## 原則

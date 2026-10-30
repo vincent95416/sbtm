@@ -56,7 +56,7 @@ cp .auth/accounts.local.md.example .auth/accounts.local.md
 
 ## 使用規則重點
 
-- 所有 AI 自動寫入的內容標為「待確認」，由 QA 審核後改為「已確認」
+- 狀態欄只有「待確認」一值 —— 這是「AI 寫的、未經人改」的永久屬性，**不是待辦清單**；人經手過的條目會在證據欄 / 條列尾綴留下「人補 / 日期」痕跡
 - `docs/` 只能透過 `/map-product` 或 `/annotate-map` 修改
 - 禁止事項與需詢問協定見 `CLAUDE.md`
 

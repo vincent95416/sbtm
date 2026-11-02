@@ -78,5 +78,7 @@
 10. 每次只讀索引與本次任務相關模組的檔案
 
 ## 文件索引
-- 產品地圖：docs/product-map.md
-- 探索報告：records/
+- 產品地圖索引：docs/product-map.md
+- 產品地圖頁面細節：docs/features/<module>/<page>.md（由 map-product / annotate-map 維護）
+- 探索輸入（需求 / spec / test case）：inputs/
+- 探索報告：records/（截圖、console log 等 artifact 在 records/artifacts/）

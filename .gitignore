@@ -16,8 +16,8 @@ records/artifacts/
 
 # 探索成果（PoC 階段、未經 review 的中間產物，暫不入版本；之後要追蹤時再移除對應行）
 docs/product-map.md
-docs/features/home/
-docs/features/games/
+docs/features/*/
+!docs/features/README.md
 records/*.md
 !records/README.md
 

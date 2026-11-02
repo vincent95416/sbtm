@@ -5,7 +5,7 @@
       "args": [
         "@playwright/mcp@latest",
         "--headless",
-        "--allowed-origins", "https://<target-domain>",
+        "--allowed-origins", "https://<target-domain>;https://<subdomain-if-any>",
         "--output-dir", "records/artifacts"
       ]
     }
